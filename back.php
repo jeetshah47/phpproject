@@ -1,5 +1,8 @@
 <link href="style.css" rel="stylesheet">
-<?php
+<script src="script.js"></script>
+<div class="box2" id = "pre2">
+            <h1>Profile Card</h1>
+            <?php
 $servername = "sql12.freemysqlhosting.net";
 $username = "sql12370284";
 $password = "p3ABPUKQxT";
@@ -11,7 +14,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully";
+echo "<p>Connected successfully</p>";
 $stmt =  $conn->prepare("INSERT INTO users (user_name, user_uname, passwords) VALUES (?, ?, ?)");
 $stmt->bind_param("sss", $name, $username, $passwords);
 
@@ -21,8 +24,13 @@ $passwords = $_POST["password"];
 
 $stmt->execute();
 
-echo "New records created successfully";
+echo "<p>New records created successfully</p>";
 $stmt->close();
 mysqli_close($conn);
+
+echo "Name: ".$name;
+
 ?>
+        </div>
+
 

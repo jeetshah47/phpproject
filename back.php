@@ -21,6 +21,7 @@ $stmt->bind_param("sss", $name, $username, $passwords);
 $name = $_POST["name"];
 $username = $_POST["username"];
 $passwords = $_POST["password"];
+"""learning git"""
 
 $stmt->execute();
 

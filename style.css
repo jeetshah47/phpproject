@@ -20,7 +20,7 @@ body {
     text-transform: uppercase;
     font-weight: 500;
 }
-.box1 label {
+.box1 label, .box1 p {
     color: white;
     font-size: large;
 }

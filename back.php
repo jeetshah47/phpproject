@@ -31,7 +31,7 @@ mysqli_close($conn);
             <h1>Profile Card</h1>
             <?php 
             echo "<p>Name".$name."</p>";
-            
+            ?>
         </div>
 
 

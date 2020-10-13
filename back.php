@@ -26,13 +26,12 @@ $stmt->execute();
 echo "<p>New records created successfully</p>";
 $stmt->close();
 mysqli_close($conn);
+header("Location: login.php");
 ?>
+
 <div class="box2" id = "pre2">
             <h1>Profile Card</h1>
             <?php 
             echo "<p>Name".$name."</p>";
             ?>
-        </div>
-
-
-        
+</div> 

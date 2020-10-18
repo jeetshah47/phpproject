@@ -1,4 +1,5 @@
 <?php
+session_start();
 $servername = "sql12.freemysqlhosting.net";
 $username = "sql12370284";
 $password = "p3ABPUKQxT";
@@ -21,9 +22,17 @@ $stmt->bind_param("sss", $name, $username, $passwords);
 $name = $_POST["name"];
 $username = $_POST["username"];
 $passwords = $_POST["password"];
-"""learning git"""
 
-$stmt->execute();
+$sql = "SELECT * FROM users where user_uname = '$username' ;
+$result = $conn->query($sql);
+if (mysqli_num_rows($result) > 0) {
+  -- (PLACEHODER IF USERNAME IS ALREADY TAKEN)
+  }
+} else {
+  $stmt->execute();
+}
+
+
 
 echo "New records created successfully";
 $stmt->close();

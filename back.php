@@ -1,7 +1,7 @@
 <link href="style.css" rel="stylesheet">
 
 <script src="script.js"></script>
-<?php
+<?php /*
 session_start();
 $servername = "sql12.freemysqlhosting.net";
 $username = "sql12370284";
@@ -22,26 +22,19 @@ $name = $_POST["name"];
 $username = $_POST["username"];
 $passwords = $_POST["password"];
 
-$sql = "SELECT * FROM users where user_uname = '$username' ;
+$sql = "SELECT * FROM users where user_uname = '$username' ";
 $result = $conn->query($sql);
 if (mysqli_num_rows($result) > 0) {
-  -- (PLACEHODER IF USERNAME IS ALREADY TAKEN)
+
   }
-} else {
+ else {
   $stmt->execute();
 }
-
-
 
 echo "<p>New records created successfully</p>";
 $stmt->close();
 mysqli_close($conn);
-header("Location: login.php");
-?>
+*/
 
-<div class="box2" id = "pre2">
-            <h1>Profile Card</h1>
-            <?php 
-            echo "<p>Name".$name."</p>";
-            ?>
-</div> 
+echo "<p>Service is down temporarily</p>";
+?>

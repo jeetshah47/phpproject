@@ -37,4 +37,5 @@ mysqli_close($conn);
 */
 
 echo "<p>Service is down temporarily</p>";
+echo "Please try again later";
 ?>

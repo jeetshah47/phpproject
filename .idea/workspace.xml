@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c19029a-9c14-4d3e-a7e7-712978a7f55c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/user_session/session_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/user_session/session_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_session/user_session.php" beforeDir="false" afterPath="$PROJECT_DIR$/user_session/user_session.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../php" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jQEuTFLwM4Q5J84UOdfEFso8AA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="user_session.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/phpproject/user_session/user_session.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.user_session.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c19029a-9c14-4d3e-a7e7-712978a7f55c" name="Default Changelist" comment="" />
+      <created>1603728153156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603728153156</updated>
+      <workItem from="1603728155787" duration="357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="24" key="#CLI_Interpreters" timestamp="1603728372283">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="263" y="24" key="#CLI_Interpreters/0.0.1366.738@0.0.1366.738" timestamp="1603728372283" />
+    <state x="390" y="12" key="#PHP" timestamp="1603728498571">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="390" y="12" key="#PHP/0.0.1366.738@0.0.1366.738" timestamp="1603728498571" />
+    <state x="462" y="124" key="FileChooserDialogImpl" timestamp="1603728493111">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1603728493111" />
+    <state x="184" y="14" key="SettingsEditor" timestamp="1603728392024">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1603728392024" />
+  </component>
+</project>

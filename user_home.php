@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['user'])) {
-    header("Location: ../login.html");
+    header("Location: login.html");
 }
 
 ?>
@@ -10,7 +10,7 @@ if(!isset($_SESSION['user'])) {
         <link rel="stylesheet" href="user_home.css">
     </head>
     <body>
-        <button onclick="location.href='../logout.php'">Logout</button>
+        <button onclick="location.href='/logout.php'">Logout</button>
         <div class="main">
             <h1>Welcome <?php echo $_SESSION["user"] ;?></h1>
             <h3>What would you like to do</h3>

@@ -21,7 +21,7 @@ if (mysqli_num_rows($result) > 0) {
         $flag = 1;
         session_start();
         $_SESSION["user"] = $row["user_name"];
-        echo "<a href='user_home.php' target='_self>Continue</a>";
+        echo "<script> location.href= 'user_session/index.html' </script>";
         break;
     } 
   }

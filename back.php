@@ -18,5 +18,5 @@ $stmt->close();
 
 mysqli_close($conn);
 
-header("Location: login.html");
+echo "<script> location.href='login.html'; </script>";
 ?>

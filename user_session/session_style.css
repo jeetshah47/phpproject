@@ -22,10 +22,7 @@ body {
     display: inline-block;
 }
 
-.cards:hover {
-    width: 21%;
-    transition: .5s;
-}
+
 
 .image img {
     width: 100%;

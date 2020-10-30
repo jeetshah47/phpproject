@@ -3,19 +3,7 @@
 <script src="script.js"></script>
 <?php 
 session_start();
-$servername = "mysql57-bf63.euw2.cloud.ametnes.com";
-$username = "PaRjujvbCT";
-$dbpass = "suvjz2xh5litv9WE2LtB";
-$database = "1939748071";
-
-// Create connection
-$conn = mysqli_connect($servername,$username ,$dbpass,$database);
-// Sign up variables
-// Check connection
-if($conn === FALSE) {
-  die("ERRORO");
-}
-
+include 'base.php';
 $name = $_POST["name"];
 $username = $_POST["username"];
 $passwords = $_POST["password"];

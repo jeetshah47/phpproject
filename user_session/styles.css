@@ -1,0 +1,47 @@
+html,
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.65;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1280px;
+}
+
+h1 {
+  font-size: 72px;
+  /*font-size: 3em;*/
+}
+
+p {
+  font-family: Georgia, Times, serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.post-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#post-title {
+  border-bottom: 8px solid black;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.post-meta {
+  overflow: auto;
+}
+
+.post-author {
+  display: block;
+  float: left;
+}
+
+.post-published {
+  display: block;
+  float: right;
+}

@@ -3,23 +3,33 @@
 <script src="script.js"></script>
 
 <?php
-session_start();
-$servername = "sql12.freemysqlhosting.net";
-$username = "sql12370284";
-$password = "p3ABPUKQxT";
-$dbname = "sql12370284";
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+
+//Creating Connection
+include 'base.php';
 //accepting credential input
 $username = $_POST["username"];
-$passwords = $_POST["password"];
+$passwords = $_POST["passwords"];
 //Verifing Credentials 
-$sql = "SELECT * FROM users where user_uname = '$username'&&passwords = '$passwords' ;
-$result = $conn->query($sql);
-if (mysqli_num_rows($result) == 0) {
---   header('PLACEHOLDER FOR LOGIN PAGE')
+$sql = "SELECT * FROM users" ;
+$flag = 0;
+$result = mysqli_query($conn, $sql);
+if (mysqli_num_rows($result) > 0) {
+
+  // output data of each row
+  while($row = mysqli_fetch_assoc($result)) {
+    if($row["user_uname"] == $username && $row["passwords"] == $passwords) {
+        $flag = 1;
+        session_start();
+        $_SESSION["user"] = $row["user_name"];
+        header('Location: user_session/user_home.php');
+        break;
+    } 
   }
-  else{
-    --   header('placeholder for home page');
-    }
+
+} else {
+  echo "Sorry User Not Found";
+}
+if ($flag === 0){ echo "Sorry User Not Found"; }
+
+mysqli_close($conn);
     ?>

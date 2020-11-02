@@ -14,19 +14,6 @@ $i=0;
          <h1>Project Section</h1>
      </div>
      <div class="main">
-         <script >
-         const getData = (str) => {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.onreadystatechange = () => {
-        if (this.readyState == 4 && this.status == 200) {
-            window.open('user_session/project_blog.php','_self');
-        }
-        xmlhttp.open("GET", "user_session/project_blog.php?q=" + str, true);
-        xmlhttp.send();
-
-    }
-}
-          </script>
      <?php 
      
      $sql = "SELECT * FROM contentdata";

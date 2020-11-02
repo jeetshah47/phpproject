@@ -1,9 +1,92 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url('../uploads/background.png') ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a {
+color: #212121;
+text-decoration: none;
+padding: 5px 20px;
+font-family: poppins;
+font-size: 16px;
+text-transform: uppercase;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo{
+    float: left;
+    width: 44%;
+    margin-left: 25px;
+}
 
-.main  {
+.logo img{
+    width: 100px;
+    padding: 15px 0;
+}
+.welcome-text{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.welcome-text h1{
+    text-align: center;
+    color: #554e4e;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.btns {
+    position: absolute;
+    bottom: 20%;
+    left: 49%;
+    transform: translate(-50%,-50%);
     text-align: center;
 }
+.btns a{
+    border: 1px solid#212121;
+    width: 130px;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color:  #212121;;
+}
+.btns a:hover{
+    background: #333;
+    color: #fff;
+    transition: .5s;
+}
+
+/*resposive*/
 

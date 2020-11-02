@@ -4,8 +4,8 @@
 }
 body{
     font-family: 'Lato', sans-serif;
-    
-    background: linear-gradient(rgba(114, 81, 231, 0.8),rgba(0,0,0,0.8));
+    background-image: url('uploads/background.png') ;
+    background-size: cover;
 }
 .wrapper{
     width: 1170px;
@@ -28,7 +28,7 @@ header{
     display: inline-block;
 }
 .nav-area li a {
-color: #fff;
+color: #212121;
 text-decoration: none;
 padding: 5px 20px;
 font-family: poppins;
@@ -41,38 +41,51 @@ text-transform: uppercase;
 }
 .logo{
     float: left;
+    width: 44%;
+    margin-left: 25px;
 }
+
 .logo img{
-    width: 100%;
+    width: 100px;
     padding: 15px 0;
 }
 .welcome-text{
     position: absolute;
-    top:50%;
+    top:27%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    
 }
 .welcome-text h1{
     text-align: center;
-    color: #fff;
+    color: #554e4e;
     text-transform: uppercase;
     font-size: 60px;
 }
-.welcome-text a{
-    border: 1px solid #fff;
+.btns {
+    position: absolute;
+    bottom: 20%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btns a{
+    border: 1px solid#212121;
     width: 100px;
     padding: 10px 25px;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
     font-size: 14px;
     margin-top: 20px;
     display: inline-block;
-    color: #fff;
+    color:  #212121;;
 }
-.welcome-text a:hover{
-    background: #fff;
-    color: #333;
+.btns a:hover{
+    background: #333;
+    color: #fff;
+    transition: .5s;
 }
 
 /*resposive*/

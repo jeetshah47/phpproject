@@ -7,9 +7,7 @@ Live Demo
       $file_tmp =$_FILES['image']['tmp_name'];
       $file_type=$_FILES['image']['type'];
       $file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
-      
       $extensions= array("jpeg","jpg","png");
-      
       if(in_array($file_ext,$extensions)=== false){
          $errors[]="extension not allowed, please choose a JPEG or PNG file.";
       }
@@ -20,7 +18,7 @@ Live Demo
       
       if(empty($errors)==true){
          move_uploaded_file($file_tmp,"uploads/".$file_name);
-         echo "Success";
+         echo "File Uploaded"."uploads/".$file_name;
       }else{
          print_r($errors);
       }

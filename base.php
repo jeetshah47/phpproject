@@ -7,4 +7,5 @@ mysqli_real_connect($conn, "iinvest.mysql.database.azure.com", "Jeet@iinvest", "
 if($conn === FALSE) {
   die("ERRORO");
 }
+
 ?>

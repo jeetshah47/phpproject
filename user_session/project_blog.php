@@ -1,4 +1,8 @@
 <?php 
+          session_start();
+          if(!isset($_SESSION['name'])){
+              echo "<script>location.href='../login.html'</script>"
+          }
           include '../base.php';
           $q = $_REQUEST['q'];
           $sql = "SELECT * FROM  contentdata";

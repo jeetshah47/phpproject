@@ -1,6 +1,6 @@
 <?php 
           session_start();
-          if(!isset($_SESSION['name'])){
+          if(!isset($_SESSION['user'])){
               echo "<script>location.href='../login.html'</script>"
           }
           include '../base.php';

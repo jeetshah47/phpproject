@@ -50,13 +50,13 @@
                     <p>Some information about me...:)</p>
                 </div>
                 <div class="card">
-                    <h3>Popular project</h3>
-                    <img src="../uploads/jeet.jpg" alt="profile">
-                    <img src="../uploads/jeet.jpg" alt="profile">
-                    <img src="../uploads/jeet.jpg" alt="profile">
+                    <h3>Project Team</h3>
+                    <img src="../uploads/hitanshu.jpg" alt="profile">
+                    <img src="../uploads/shivam.png" alt="profile">
+                    <img src="../uploads/dhyey.png" alt="profile">
                 </div>
                 <div class="card">
-                    <h3>Follow Me</h3>
+                    <h3>View More</h3>
                     <p>Some Text...</p>
                 </div>
             </div>

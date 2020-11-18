@@ -1,3 +1,13 @@
+@keyframes swipe{
+from  {
+    margin-left: 100%;
+}
+
+to {
+    margin-left: 0%;
+}
+}
+
 body {
     margin:0;
     padding: 0;
@@ -23,6 +33,8 @@ body {
     margin: 30px;
     box-shadow: 2px 2px 10px black;
     display: inline-block;
+    animation-name: swipe;
+    animation-duration: 3s;
 }
 
 .image img {
@@ -42,6 +54,7 @@ body {
     text-align: center;
     padding: 4px;
     background-color: white;
+
 }
 
 button {

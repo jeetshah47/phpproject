@@ -1,7 +1,7 @@
 <?php 
           session_start();
           if(!isset($_SESSION['user'])){
-              echo "<script>location.href='../login.html'</script>"
+              echo "<script>location.href='../login.html'</script>";          
           }
           include '../base.php';
           $q = $_REQUEST['q'];
@@ -15,7 +15,7 @@
                     $flag = 1;
                     array_push($data, $row['content_img'], $row['content_title'], $row['content_desc2']);
                     break;
-                } 
+                }
               }
             }
                 ?>
@@ -39,9 +39,9 @@
                 <h5>Title description , Dec 7</h5>
                 <img src=" <?php echo $data[0]; ?> " alt="blog 1">
                 <p>Some text..</p> 
-                <p> <?php echo $data[2]; ?> </p>
+                <p><?php echo $data[2]; ?></p>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FvRl0kQRa1YEcH"> </script> </form>
                 </div>
-                 
             </div>
             <div class="right-column">
                 <div class="card">

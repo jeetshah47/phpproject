@@ -3,7 +3,7 @@
 <script src="script.js"></script>
 
 <?php
-
+//
 //Creating Connection
 include 'base.php';
 //accepting credential input

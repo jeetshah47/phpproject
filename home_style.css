@@ -8,7 +8,7 @@ body{
     background-size: cover;
 }
 .wrapper{
-    width: 1170px;
+    width: 1170px;      
     margin: auto;
 }
 header{
@@ -89,5 +89,5 @@ text-transform: uppercase;
     transition: .5s;
 }
 
-/*resposive*/
 
+/*resposive*/

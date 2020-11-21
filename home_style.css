@@ -79,8 +79,9 @@ text-transform: uppercase;
     text-align: center;
     font-size: 14px;
     margin-top: 20px;
+    background-color: #212121;
     display: inline-block;
-    color:  #212121;;
+    color:  #fff;
 }
 .btns a:hover{
     background: #333;

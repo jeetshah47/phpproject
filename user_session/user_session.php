@@ -5,23 +5,21 @@ $i=0;
 ?>
 <html>
     <head>
-    <title>Session</title>
+        <title>Session</title>
     <link href = "session_style.css" rel="stylesheet">
     
     </head>
     <body>
-     <div class="heading">
-         <h1>Project Section</h1>
-     </div>
-     <div class="main">
+        <div class="heading">
+            <h1>Project Section</h1>
+            </div>
+            <div class="main">
      <?php 
-     
      $sql = "SELECT * FROM contentdata";
      $result = mysqli_query($conn, $sql);
      $_SESSION['title'] = array();
      if (mysqli_num_rows($result) > 0) {
             while($row = mysqli_fetch_assoc($result)) {
-                
                 array_push($_SESSION['title'],$row['content_title']);
            ?>
         
@@ -36,14 +34,12 @@ $i=0;
             <p><?php echo $row['content_desc1']; ?></p>
             <button onclick = "window.open('project_blog.php?q=<?php echo $_SESSION['title'][$i]?>','_self')">Read More..</button>
     </div>
-
     </div>
             <?php
             $i++;
         } 
             }
     ?>
-    
 </div>
     </body>
 </html>

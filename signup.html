@@ -12,10 +12,9 @@
         
         <form action="back.php"  class="box1" id = "pre1" method="POST">
             <h1 id="jet">Sign UP for free</h1>
-            <input type="text" name="name" id="" placeholder="Name" onkeyup="liveData(this.value,this.name)">
-            <input type="text" name="username" id="" placeholder="Username" onkeyup="liveData(this.value,this.name)">
-            <input type="password" name="password" id="" placeholder="password">
-            <input type="button" value="Preview" id="btn" onclick="showPreview()">
+            <input type="text" name="name" id="" placeholder="Name" required>
+            <input type="text" name="username" id="" placeholder="Username" required>
+            <input type="password" name="password" id="" placeholder="password"required>
             <label>Select Account Type</label><br>
             <label>Individual</label>
             <input type="radio" value="Individual" name="account" id="Individual" >
@@ -27,4 +26,4 @@
         </form>
         <!-- Preview Form-->
     </body>
-</html>
+</html> 

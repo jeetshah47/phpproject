@@ -30,12 +30,12 @@
        <!-- <div class="image">
             <img src="../uploads/background.png">
         </div>-->
-       
+            
         
         <div class="row">
             <div class="left-column">
                 <div class="card">
-                <h2>Title <?php echo $data[0];?></h2>  
+                <h2>Title <?php echo $data[1];?></h2>  
                 <h5>Dec 7</h5>
                 <img src=" <?php echo $data[0]; ?> " alt="blog 1">
                 <p>Some text..</p> 
